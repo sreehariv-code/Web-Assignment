@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./login.css">
+    <script src="./script.js" defer></script>
+    <title>Food Ordering System</title>
+</head>
+
+<body>
+    <main>
+        <a href="./index.html" title="Back to home" class="home-btn"><i class="fa-solid fa-angles-left"></i></a>
+        <div class="login-container">
+            <img class="food-login" src="./assets/Fast food_Monochromatic.svg" alt="food-img">
+            <div class="btn-section">
+                <div class="slider"></div>
+                <button class="toggle-btn" onclick="login()">Log in</button>
+                <button class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="form-section">
+                <form id="login" action="#" onsubmit="event.preventDefault();" class="input-group">
+                    <h3>Welcome Back</h3>
+                    <input type="text" name="username" class="input-box emailid" placeholder="Username">
+                    <input type="password" name="password" class="input-box password" placeholder="Password">
+                    <button class="submit-btn" type="submit">Log in</button>
+                </form>
+                <form id="register" action="#" onsubmit="event.preventDefault();" class="input-group">
+                    <h3>Welcome new user</h3>
+                    <input type="text" name="username" class="input-box username" placeholder="Username">
+                    <input type="text" name="place" class="input-box place" placeholder="Place">
+                    <input type="tel" name="place" class="input-box phone-no" placeholder="Phone Number">
+                    <input type="number" name="age" class="input-box age" placeholder="Age">
+                    <input type="password" name="password" class="input-box password" placeholder="Password">
+                    <button class="submit-btn" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
