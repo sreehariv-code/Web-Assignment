@@ -51,6 +51,8 @@ main {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   overflow-x: hidden;
   padding-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn-section {
